@@ -1,5 +1,51 @@
 /* Write your CSS below. */
 
+.links{
+  color: var(--soft-white);
+  text-decoration: none;
+}
+
+.links:hover{
+  color: var(--light-slate);
+}
+
+.name {
+  color: var(--old-brass);
+  font-size: 3em;
+  text-shadow: 1px 1px #eeeab4;
+}
+
+
+.libraries:only-child, .class:only-child {
+  text-align: center;
+  border: 1px solid var(--line-blue);
+  border-radius: 10px;
+  width: 30%;
+  padding: 2em 1em;
+  margin: 1em;
+  box-shadow: var(--dark-box-shadowing);
+}
+
+.class:only-child{
+  color: var(--line-blue);
+  background-color: var(--old-brass);
+}
+
+.libraries:only-child{
+  color: var(--soft-white);
+  background-color: var(--line-blue);
+}
+
+.class, .libraries, .links {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.links:only-child {
+  width: 10%;
+}
 /* Do not change any CSS below this line. */
 
 :root {
